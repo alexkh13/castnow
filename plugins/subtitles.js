@@ -51,7 +51,7 @@ var attachSubtitles = function(ctx) {
     edgeColor: '#000000FF',
     fontScale: ctx.options['subtitle-scale'],
     fontStyle: 'NORMAL',
-    fontFamily: 'Droid Sans',
+    fontFamily: ctx.options['subtitle-family'] || 'Droid Sans',
     fontGenericFamily: 'SANS_SERIF',
     windowColor: '#AA00FFFF',
     windowRoundedCornerRadius: 10,
